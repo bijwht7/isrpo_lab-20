@@ -12,3 +12,9 @@ text.style.fontSize = "18px";
 title.style.fontSize = "italic";
 title.style.color = "darkgreen";
 
+const btn = document.getElementById("btn");
+btn.addEventListener("click", () => {
+  alert("Кнопка нажата!");
+  btn.style.backgroundColor = "#4CAF50";
+  btn.style.color = "white";
+});
